@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 
 const App = () => {
   return (
@@ -6,6 +6,7 @@ const App = () => {
       <div className="main">
         <input className="search" />
         <div className="flats">
+          List of flats here
         </div>
       </div>
 
