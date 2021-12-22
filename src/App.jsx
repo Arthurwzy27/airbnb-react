@@ -1,4 +1,5 @@
 import './App.scss';
+import Flat from './Flat.jsx';
 
 const App = () => {
   return (
@@ -6,7 +7,9 @@ const App = () => {
       <div className="main">
         <input className="search" />
         <div className="flats">
-          List of flats here
+          <Flat />
+          <Flat />
+          <Flat />
         </div>
       </div>
 
