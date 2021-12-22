@@ -2,8 +2,15 @@ import './App.css';
 
 const App = () => {
   return (
-    <div>
-      Hey
+    <div className="app">
+      <div className="main">
+        <input className="search" />
+        <div className="flats">
+        </div>
+      </div>
+
+      <div className="map">
+      </div>
     </div>
   );
 }
