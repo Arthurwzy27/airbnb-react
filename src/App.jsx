@@ -7,9 +7,10 @@ const App = () => {
       <div className="main">
         <input className="search" />
         <div className="flats">
-          <Flat />
-          <Flat />
-          <Flat />
+          <Flat name="Flat1" price="59"/>
+          <Flat name="Flat2" price="45"/>
+          <Flat name="Flat3" price="75"/>
+
         </div>
       </div>
 

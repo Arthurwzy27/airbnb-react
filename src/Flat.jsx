@@ -1,9 +1,11 @@
-const Flat = () => {
+import './Flat.scss';
+
+const Flat = ({ price, name, imageUrl }) => {
   return (
     <div className="flats">
-      <img className="flat-picture" />
+      <img className="flat-picture" src={ imageUrl } alt="" />
       <div className="flat-title">
-        FLAT NAME - PRICE
+        { name } - { price }
       </div>
     </div>
   )
